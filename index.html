@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Simple Quiz</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <h1>Quiz</h1>
+  <p id="question">What is 2 + 2?</p>
 
+  <label><input type="radio" name="quiz" value="3"> 3</label><br>
+  <label><input type="radio" name="quiz" value="4"> 4</label><br>
+  <label><input type="radio" name="quiz" value="5"> 5</label><br><br>
 
-    <div id="quiz-container">
-        <p id="quiz-question">What is 2 + 2?</p>
-        <div>
-            <input type="radio" id="choice1" name="quiz" value="4">
-            <label for="choice1">4</label><br>
-            <input type="radio" id="choice2" name="quiz" value="22">
-            <label for="choice2">22</label><br>
-            <input type="radio" id="choice3" name="quiz" value="3">
-            <label for="choice3">3</label>
-        </div>
-        <button id="submit-answer">Submit Answer</button>
-        <p id="feedback"></p>
-    </div>
-    <script src="quiz.js"></script>
+  <button id="submit-answer">Submit Answer</button>
+
+  <p id="feedback"></p>
+
+  <script src="quiz.js"></script>
 </body>
 </html>
+
+
+
 
 
